@@ -18,7 +18,13 @@ ext_modules = [
     )
 ]
 
-setup(name='pycocotools',
+setup(name='wai.pycocotools',
+      description='Public release of open-mmlab/cocoapi on PyPI',
+      url='https://github.com/waikato-ufdl/cocoapi',
+      classifiers=[
+          'License :: OSI Approved :: BSD License'
+      ],
+      license='BSD License',
       packages=['pycocotools'],
       package_dir={'pycocotools': 'pycocotools'},
       install_requires=[
